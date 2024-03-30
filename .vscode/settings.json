@@ -1,0 +1,22 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "name": "Pagila",
+            "database": "Pagila",
+            "username": "postgres"
+        },
+        {
+            "previewLimit": 50,
+            "server": "powerbi-data-analytics-server.postgres.database.azure.com",
+            "port": 5432,
+            "driver": "PostgreSQL",
+            "database": "orders-db",
+            "username": "maya",
+            "name": "DA-PowerBI"
+        }
+    ]
+}
