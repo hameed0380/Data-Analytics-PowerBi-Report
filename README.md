@@ -9,9 +9,9 @@ This project involves partnering with a medium-sized international retailer to e
 - [Project Overview](#project-overview)
 - [Objectives](#objectives)
 - [Description](#description)
+- [File Structure](#file-structure)
 - [Installation](#installation)
 - [Usage](#usage)
-- [File Structure](#file-structure)
 - [License](#license)
 
 ### Objectives
@@ -25,6 +25,26 @@ This project involves partnering with a medium-sized international retailer to e
    - Develop a multi-page report catering to the needs of C-suite executives.
    - Incorporate visually appealing and informative visualizations.
 
+
+### Executive Summary
+
+![Executive Summary](Images/Executive-Summary.PNG)
+
+### Customer Detail
+
+![Customer Detail](Images/Customer-Detail.PNG)
+
+### Product Detail
+
+![Product Detail](Images/Product-Detail.PNG)
+
+### Stores Map
+
+![Stores Map](Images/Stores-Map.PNG)
+
+### Stores Drillthrough
+
+![Store Drillthrough](Images/Store-Drillthrough.PNG)
 
 ### File Structure
     .
@@ -40,3 +60,8 @@ This project involves partnering with a medium-sized international retailer to e
     ├── README.md
     └── SQL Queries
         └── OrdersPoweBi.sql
+
+
+### Usage
+
+### License
