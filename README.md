@@ -28,21 +28,27 @@ This project involves partnering with a medium-sized international retailer to e
    - Incorporate visually appealing and informative visualizations.
 
 ### Loading in Data
-The project focuses on four pivotal tables: Orders, Products, Sales, and Customers. Each of these tables constitues to providing essential information that is crucial for a thorough comprehension of the business data.
+The project focuses on four pivotal tables: Orders, Products, Sales, and Customers. Each of these tables constitues to providing essential information that is crucial for a thorough comprehension of the business data. These tables are sourced from different sources, as illustrated in the image below..
 
 <img src="Images/Report-Process.png" width="600" height="380">
 
-<br>
+
+
+
+### Data Modeling
+The Data Model underpinning this project adopts a **star-schema** architecture, comprising five interconnected tables essential for comprehensive data analysis.
+
+![Data Model](Images/Data-Model.png)
 
 1. **Orders Data (Fact Table):** Extracted from an Azure SQL database, this table includes information about each order.
 2. **Customers Data:** Extracted from CSV's files contained in a folder, this table includes information about each customers details as well as purchases.
 3. **Products Data:** Extracted from a CSV file, this table includes information about each product sold by the company.
 4. **Stores Data:** Extracted from Azure Blob Storage, this table includes information about the location of the stores.
 
-
-### Data Modeling
-
-![Data Model](Images/Data-Model.png)
+- Relationships:
+  - Orders Table: Serves as the central fact table, surrounded by the four dimension tables mentioned above.
+  Establishes one-to-many relationships with each dimension table.
+  - Dimension Tables: Maintain one-to-many relationships with the Orders table, providing contextual details for enhanced analysis and reporting.
 
 ***
 ### Executive Summary
