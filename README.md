@@ -28,12 +28,9 @@ This project involves partnering with a medium-sized international retailer to e
    - Incorporate visually appealing and informative visualizations.
 
 ### Loading in Data
-The project focuses on four pivotal tables: Orders, Products, Sales, and Customers. Each of these tables constitues to providing essential information that is crucial for a thorough comprehension of the business data. These tables are sourced from different sources, as illustrated in the image below..
+The project focuses on four pivotal tables: Orders, Products, Sales, and Customers. Each of these tables constitues to providing essential information that is crucial for a thorough comprehension of the business data. These tables are sourced from different sources, as illustrated in the image below.
 
 <img src="Images/Report-Process.png" width="600" height="380">
-
-
-
 
 ### Data Modeling
 The Data Model underpinning this project adopts a **star-schema** architecture, comprising five interconnected tables essential for comprehensive data analysis.
@@ -79,18 +76,27 @@ The Data Model underpinning this project adopts a **star-schema** architecture, 
 ***
 ### File Structure
     .
-    ├── CSV
-    │   ├── dim_customer_columns.csv
-    │   ├── dim_date_columns.csv
-    │   ├── dim_product_columns.csv
-    │   ├── dim_store_columns.csv
-    │   ├── orders_columns.csv
-    │   └── tablenames.csv
+    ├── Data-Analytics-Power-BI-Report.pbix
     ├── Images
+    │   ├── Custom-Tooltip.png
+    │   ├── Customer-Detail.png
+    │   ├── Data-Model.png
+    │   ├── Executive-Summary.png
+    │   ├── Product-Detail.png
+    │   ├── Report-Process.png
+    │   ├── Store-Drillthrough.png
+    │   └── Stores-Map.png
     ├── MOV
     ├── README.md
-    └── SQL Queries
-        └── OrdersPoweBi.sql
+    ├── SQL Queries
+    │   └── OrdersPoweBi.sql
+    └── Tables and Columns
+        ├── dim_customer_columns.csv
+        ├── dim_date_columns.csv
+        ├── dim_product_columns.csv
+        ├── dim_store_columns.csv
+        ├── orders_columns.csv
+        └── tablenames.csv
 
 ### Installation
 In order to view and use the report on your local machine, run this command in an appropriate directory:
@@ -98,7 +104,6 @@ In order to view and use the report on your local machine, run this command in a
    ``` bash
    git clone https://github.com/hameed0380/Data-Analytics-PowerBi-Report.git
    cd Data-Analytics-PowerBi-Report
-
    ```
 
 ### Usage
