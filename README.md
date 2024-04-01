@@ -40,7 +40,6 @@ The project focuses on four pivotal tables: Orders, Products, Sales, and Custome
 4. **Stores Data:** Extracted from Azure Blob Storage, this table includes information about the location of the stores.
 
 
-
 ### Data Modeling
 
 ![Data Model](Images/Data-Model.png)
