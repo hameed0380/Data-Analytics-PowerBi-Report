@@ -2,6 +2,7 @@
 
 ![Power bi](https://img.shields.io/badge/power_BI-FF9900?style=for-the-badge&logo=powerbi&logoColor=white) ![PostgreSQL](https://img.shields.io/badge/postgresql-3776AB?style=for-the-badge&logo=postgresql&logoColor=white) ![Git](https://img.shields.io/badge/Git-B1361E?style=for-the-badge&logo=git&logoColor=white) ![VSCode](https://img.shields.io/badge/VSCode-2962FF?style=for-the-badge&logo=visual%20studio&logoColor=white) ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white) ![Azure](https://img.shields.io/badge/azure-%230072C6.svg?style=for-the-badge&logo=microsoftazure&logoColor=white)
 
+
 ## Project Overview
 This project involves partnering with a medium-sized international retailer to enhance their business intelligence practices. With operations spanning various regions and accumulating significant sales data from disparate sources, the retailer seeks to leverage this data for informed decision-making. The goal is to utilize Microsoft Power BI to design a comprehensive Quarterly report, presenting actionable insights to drive strategic initiatives.
 
@@ -29,32 +30,48 @@ This project involves partnering with a medium-sized international retailer to e
 ### Loading in Data
 The project focuses on four pivotal tables: Orders, Products, Sales, and Customers. Each of these tables constitues to providing essential information that is crucial for a thorough comprehension of the business data.
 
+<img src="Images/Report-Process.png" width="600" height="380">
+
+<br>
+
+1. **Orders Data (Fact Table):** Extracted from an Azure SQL database, this table includes information about each order.
+2. **Customers Data:** Extracted from CSV's files contained in a folder, this table includes information about each customers details as well as purchases.
+3. **Products Data:** Extracted from a CSV file, this table includes information about each product sold by the company.
+4. **Stores Data:** Extracted from Azure Blob Storage, this table includes information about the location of the stores.
+
 
 
 ### Data Modeling
 
 ![Data Model](Images/Data-Model.png)
 
+***
 ### Executive Summary
 
 ![Executive Summary](Images/Executive-Summary.png)
 
+***
 ### Customer Detail
 
 ![Customer Detail](Images/Customer-Detail.png)
 
+***
 ### Product Detail
 
 ![Product Detail](Images/Product-Detail.png)
 
+***
 ### Stores Map
 
 ![Stores Map](Images/Stores-Map.png)
 
+***
 ### Stores Drillthrough
 
 ![Store Drillthrough](Images/Store-Drillthrough.png)
 
+
+***
 ### File Structure
     .
     ├── CSV
