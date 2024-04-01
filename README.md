@@ -9,6 +9,7 @@ This project involves partnering with a medium-sized international retailer to e
 - [Project Overview](#project-overview)
 - [Objectives](#objectives)
 - [Description](#description)
+- [Data Modeling](#data-modeling)
 - [File Structure](#file-structure)
 - [Installation](#installation)
 - [Usage](#usage)
@@ -25,14 +26,16 @@ This project involves partnering with a medium-sized international retailer to e
    - Develop a multi-page report catering to the needs of C-suite executives.
    - Incorporate visually appealing and informative visualizations.
 
+### Loading in Data
+The project focuses on four pivotal tables: Orders, Products, Sales, and Customers. Each of these tables constitues to providing essential information that is crucial for a thorough comprehension of the business data.
+
+
+
+### Data Modeling
+
+![Data Model](Images/Data-Model.PNG)
 
 ### Executive Summary
-
-<div align="center">
-  <img src="Images/Executive-Summary.PNG" alt="Executive page walkthrough">
-</div>
-
-<br>
 
 ![Executive Summary](Images/Executive-Summary.PNG)
 
@@ -67,7 +70,16 @@ This project involves partnering with a medium-sized international retailer to e
     └── SQL Queries
         └── OrdersPoweBi.sql
 
+### Installation
+In order to view and use the report on your local machine, run this command in an appropriate directory:
+
+   ``` bash
+   git clone https://github.com/hameed0380/Data-Analytics-PowerBi-Report.git
+   cd Data-Analytics-PowerBi-Report
+
+   ```
 
 ### Usage
 
 ### License
+This project is licensed under the MIT License - see the [LICENSE](LICENSE.md) file for details.
