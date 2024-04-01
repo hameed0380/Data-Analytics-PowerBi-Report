@@ -33,27 +33,27 @@ The project focuses on four pivotal tables: Orders, Products, Sales, and Custome
 
 ### Data Modeling
 
-![Data Model](Images/Data-Model.PNG)
+![Data Model](Images/Data-Model.png)
 
 ### Executive Summary
 
-![Executive Summary](Images/Executive-Summary.PNG)
+![Executive Summary](Images/Executive-Summary.png)
 
 ### Customer Detail
 
-![Customer Detail](Images/Customer-Detail.PNG)
+![Customer Detail](Images/Customer-Detail.png)
 
 ### Product Detail
 
-![Product Detail](Images/Product-Detail.PNG)
+![Product Detail](Images/Product-Detail.png)
 
 ### Stores Map
 
-![Stores Map](Images/Stores-Map.PNG)
+![Stores Map](Images/Stores-Map.png)
 
 ### Stores Drillthrough
 
-![Store Drillthrough](Images/Store-Drillthrough.PNG)
+![Store Drillthrough](Images/Store-Drillthrough.png)
 
 ### File Structure
     .
