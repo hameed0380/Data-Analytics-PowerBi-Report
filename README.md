@@ -28,6 +28,12 @@ This project involves partnering with a medium-sized international retailer to e
 
 ### Executive Summary
 
+<div align="center">
+  <img src="Images/Executive-Summary.PNG" alt="Executive page walkthrough">
+</div>
+
+<br>
+
 ![Executive Summary](Images/Executive-Summary.PNG)
 
 ### Customer Detail
